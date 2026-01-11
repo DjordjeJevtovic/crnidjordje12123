@@ -1,0 +1,35 @@
+.authorContainer {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.authorContainer > div {
+  width: 50%;
+  padding: 20px;
+}
+
+.authorContainer div img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 15px 15px lightblue;
+  transition: all ease-in-out 0.2s;
+}
+
+.authorContainer div img:hover {
+  transform: scale(105%);
+}
+
+.authorContainer div h4 {
+  margin: 70px 0 0 20px;
+  font-size: 40px;
+}
+.authorContainer div h4 span {
+  color: #0e6b68;
+  font-weight: 600;
+}
+
+.authorContainer div p {
+  margin: 70px 0 0 20px;
+  font-size: 18px;
+}
