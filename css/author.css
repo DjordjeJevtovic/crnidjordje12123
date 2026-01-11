@@ -1,0 +1,97 @@
+.authorContainer {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.authorContainer > div {
+  width: 50%;
+  padding: 20px;
+}
+
+.authorContainer div img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 15px 15px lightblue;
+  transition: all ease-in-out 0.2s;
+}
+
+.authorContainer div img:hover {
+  transform: scale(105%);
+}
+
+.authorContainer div h4 {
+  margin: 70px 0 0 20px;
+  font-size: 40px;
+}
+.authorContainer div h4 span {
+  color: #0e6b68;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.authorContainer div p {
+  margin: 70px 0 0 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  main .authorContainer div h4 {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  main .authorContainer div p {
+    font-size: 17px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  main .authorContainer div h4 {
+    font-size: 33px;
+    margin-top: 35px;
+  }
+  main .authorContainer div p {
+    font-size: 16px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 901px) {
+  main .authorContainer {
+    display: block;
+  }
+
+  main .authorContainer div {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 655px) {
+  main .authorContainer div h4 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  main .authorContainer div p {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 569px) {
+  main .authorContainer div h4 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  main .authorContainer div p {
+    display: none;
+  }
+}
+
+@media (max-width: 518px) {
+  main .authorContainer div h4 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
