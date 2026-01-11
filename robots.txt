@@ -2,4 +2,4 @@ User-agent: *
 Allow: /css/
 
 
-Sitemap:
+Sitemap:https://djordjejevtovic.github.io/crnidjordje12123/sitemap.xml
